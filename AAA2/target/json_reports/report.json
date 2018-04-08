@@ -1,0 +1,40 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search an item on etsy",
+        "description": "",
+        "id": "search-in-etsy.com;search-an-item-on-etsy",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5633997064,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Etsy",
+            "match": {
+              "location": "SearchStepDefinitions.i_am_on_Etsy()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Search in Etsy.com",
+    "description": "",
+    "id": "search-in-etsy.com",
+    "keyword": "Feature",
+    "uri": "Search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      }
+    ]
+  }
+]
